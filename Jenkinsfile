@@ -6,10 +6,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                // Example for Java:
-                // sh './gradlew build'
-                // Example for Node:
-                // sh 'npm install'
+                sh './build_project.bash'
             }
         }
 
