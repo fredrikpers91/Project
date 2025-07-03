@@ -11,7 +11,6 @@ pipeline {
         }
         // ...
     }
-}
 // Post-build actions can be added here
     post {
         success {
